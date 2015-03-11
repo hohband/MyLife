@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AB5ABA31AB10A2A006DB355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5ABA21AB10A2A006DB355 /* AppDelegate.swift */; };
+		3AB5ABA51AB10A2A006DB355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5ABA41AB10A2A006DB355 /* ViewController.swift */; };
+		3AB5ABA81AB10A2A006DB355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB5ABA61AB10A2A006DB355 /* Main.storyboard */; };
+		3AB5ABAA1AB10A2A006DB355 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB5ABA91AB10A2A006DB355 /* Images.xcassets */; };
+		3AB5ABAD1AB10A2A006DB355 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AB5ABAB1AB10A2A006DB355 /* LaunchScreen.xib */; };
+		3AB5ABB91AB10A2B006DB355 /* ClockMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5ABB81AB10A2B006DB355 /* ClockMeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AB5ABB31AB10A2B006DB355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB5AB951AB10A2A006DB355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB5AB9C1AB10A2A006DB355;
+			remoteInfo = ClockMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AB5AB9D1AB10A2A006DB355 /* ClockMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB5ABA11AB10A2A006DB355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB5ABA21AB10A2A006DB355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AB5ABA41AB10A2A006DB355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AB5ABA71AB10A2A006DB355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AB5ABA91AB10A2A006DB355 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3AB5ABAC1AB10A2A006DB355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3AB5ABB21AB10A2B006DB355 /* ClockMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB5ABB71AB10A2B006DB355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB5ABB81AB10A2B006DB355 /* ClockMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockMeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AB5AB9A1AB10A2A006DB355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB5ABAF1AB10A2B006DB355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AB5AB941AB10A2A006DB355 = {
+			isa = PBXGroup;
+			children = (
+				3AB5AB9F1AB10A2A006DB355 /* ClockMe */,
+				3AB5ABB51AB10A2B006DB355 /* ClockMeTests */,
+				3AB5AB9E1AB10A2A006DB355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AB5AB9E1AB10A2A006DB355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AB5AB9D1AB10A2A006DB355 /* ClockMe.app */,
+				3AB5ABB21AB10A2B006DB355 /* ClockMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AB5AB9F1AB10A2A006DB355 /* ClockMe */ = {
+			isa = PBXGroup;
+			children = (
+				3AB5ABA21AB10A2A006DB355 /* AppDelegate.swift */,
+				3AB5ABA41AB10A2A006DB355 /* ViewController.swift */,
+				3AB5ABA61AB10A2A006DB355 /* Main.storyboard */,
+				3AB5ABA91AB10A2A006DB355 /* Images.xcassets */,
+				3AB5ABAB1AB10A2A006DB355 /* LaunchScreen.xib */,
+				3AB5ABA01AB10A2A006DB355 /* Supporting Files */,
+			);
+			path = ClockMe;
+			sourceTree = "<group>";
+		};
+		3AB5ABA01AB10A2A006DB355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AB5ABA11AB10A2A006DB355 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AB5ABB51AB10A2B006DB355 /* ClockMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB5ABB81AB10A2B006DB355 /* ClockMeTests.swift */,
+				3AB5ABB61AB10A2B006DB355 /* Supporting Files */,
+			);
+			path = ClockMeTests;
+			sourceTree = "<group>";
+		};
+		3AB5ABB61AB10A2B006DB355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AB5ABB71AB10A2B006DB355 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AB5AB9C1AB10A2A006DB355 /* ClockMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB5ABBC1AB10A2B006DB355 /* Build configuration list for PBXNativeTarget "ClockMe" */;
+			buildPhases = (
+				3AB5AB991AB10A2A006DB355 /* Sources */,
+				3AB5AB9A1AB10A2A006DB355 /* Frameworks */,
+				3AB5AB9B1AB10A2A006DB355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockMe;
+			productName = ClockMe;
+			productReference = 3AB5AB9D1AB10A2A006DB355 /* ClockMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AB5ABB11AB10A2B006DB355 /* ClockMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB5ABBF1AB10A2B006DB355 /* Build configuration list for PBXNativeTarget "ClockMeTests" */;
+			buildPhases = (
+				3AB5ABAE1AB10A2B006DB355 /* Sources */,
+				3AB5ABAF1AB10A2B006DB355 /* Frameworks */,
+				3AB5ABB01AB10A2B006DB355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB5ABB41AB10A2B006DB355 /* PBXTargetDependency */,
+			);
+			name = ClockMeTests;
+			productName = ClockMeTests;
+			productReference = 3AB5ABB21AB10A2B006DB355 /* ClockMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AB5AB951AB10A2A006DB355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LukeCurran;
+				TargetAttributes = {
+					3AB5AB9C1AB10A2A006DB355 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					3AB5ABB11AB10A2B006DB355 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 3AB5AB9C1AB10A2A006DB355;
+					};
+				};
+			};
+			buildConfigurationList = 3AB5AB981AB10A2A006DB355 /* Build configuration list for PBXProject "ClockMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AB5AB941AB10A2A006DB355;
+			productRefGroup = 3AB5AB9E1AB10A2A006DB355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AB5AB9C1AB10A2A006DB355 /* ClockMe */,
+				3AB5ABB11AB10A2B006DB355 /* ClockMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AB5AB9B1AB10A2A006DB355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB5ABA81AB10A2A006DB355 /* Main.storyboard in Resources */,
+				3AB5ABAD1AB10A2A006DB355 /* LaunchScreen.xib in Resources */,
+				3AB5ABAA1AB10A2A006DB355 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB5ABB01AB10A2B006DB355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AB5AB991AB10A2A006DB355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB5ABA51AB10A2A006DB355 /* ViewController.swift in Sources */,
+				3AB5ABA31AB10A2A006DB355 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB5ABAE1AB10A2B006DB355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB5ABB91AB10A2B006DB355 /* ClockMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AB5ABB41AB10A2B006DB355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB5AB9C1AB10A2A006DB355 /* ClockMe */;
+			targetProxy = 3AB5ABB31AB10A2B006DB355 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AB5ABA61AB10A2A006DB355 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AB5ABA71AB10A2A006DB355 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AB5ABAB1AB10A2A006DB355 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AB5ABAC1AB10A2A006DB355 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AB5ABBA1AB10A2B006DB355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AB5ABBB1AB10A2B006DB355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AB5ABBD1AB10A2B006DB355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClockMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AB5ABBE1AB10A2B006DB355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClockMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3AB5ABC01AB10A2B006DB355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClockMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClockMe.app/ClockMe";
+			};
+			name = Debug;
+		};
+		3AB5ABC11AB10A2B006DB355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClockMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClockMe.app/ClockMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AB5AB981AB10A2A006DB355 /* Build configuration list for PBXProject "ClockMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB5ABBA1AB10A2B006DB355 /* Debug */,
+				3AB5ABBB1AB10A2B006DB355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB5ABBC1AB10A2B006DB355 /* Build configuration list for PBXNativeTarget "ClockMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB5ABBD1AB10A2B006DB355 /* Debug */,
+				3AB5ABBE1AB10A2B006DB355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AB5ABBF1AB10A2B006DB355 /* Build configuration list for PBXNativeTarget "ClockMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB5ABC01AB10A2B006DB355 /* Debug */,
+				3AB5ABC11AB10A2B006DB355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AB5AB951AB10A2A006DB355 /* Project object */;
+}
