@@ -28,10 +28,6 @@
                                 <rect key="frame" x="96" y="506" width="129" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play43" id="XZW-0T-uu4">
-                                <rect key="frame" x="140" y="288" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check64" id="hyW-lD-zNi">
                                 <rect key="frame" x="245" y="43" width="25" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -43,9 +39,71 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YEn-J3-tJt">
+                                <rect key="frame" x="128" y="318" width="65" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="myPlayPauseButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CaZ-Ug-xTl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="prv-UY-eng">
+                                <rect key="frame" x="189" y="392" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
+                                <state key="normal" title="Countdown">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="myCountdownButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0nn-9T-BJv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WSp-Cb-FiC">
+                                <rect key="frame" x="16" y="392" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
+                                <state key="normal" title="Timer">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="myTimerButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mJs-Ib-DpQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dQC-P4-bSN">
+                                <rect key="frame" x="96" y="506" width="129" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="myResetButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ko9-2w-GDM"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" id="0w6-Yy-sai">
+                                <rect key="frame" x="0.0" y="98" width="320" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play43" id="XZW-0T-uu4">
+                                <rect key="frame" x="140" y="326" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="countDown" destination="prv-UY-eng" id="UpF-cP-gyf"/>
+                        <outlet property="countDownImage" destination="ANP-zL-Snn" id="7YG-cC-SPa"/>
+                        <outlet property="countdownPickerView" destination="0w6-Yy-sai" id="eWm-nN-2Ht"/>
+                        <outlet property="myDoneIndicator" destination="hyW-lD-zNi" id="owb-Bn-0aw"/>
+                        <outlet property="playPauseImage" destination="XZW-0T-uu4" id="PeO-g0-3xz"/>
+                        <outlet property="timeDisplay" destination="aJ4-ay-oa3" id="WOh-1d-uaM"/>
+                        <outlet property="timerButton" destination="WSp-Cb-FiC" id="FHH-6S-GVF"/>
+                        <outlet property="timerImage" destination="EEX-rC-U0i" id="eLM-U2-MNe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
