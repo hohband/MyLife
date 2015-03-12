@@ -94,6 +94,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="countDown" destination="prv-UY-eng" id="UpF-cP-gyf"/>
                         <outlet property="countDownImage" destination="ANP-zL-Snn" id="7YG-cC-SPa"/>
