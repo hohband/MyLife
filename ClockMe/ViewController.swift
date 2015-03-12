@@ -39,7 +39,7 @@ extension ViewController : UIPickerViewDelegate {
     var myTitle = NSAttributedString(string: titleData, attributes: [NSForegroundColorAttributeName:UIColor.whiteColor()])
     return myTitle
 
-}
+  }
   
 }
 
@@ -97,6 +97,7 @@ class ViewController: UIViewController {
   }
   
   @IBAction func myResetButton(sender: UIButton) {
+    
     // Check if timer is playing and if not, reset like normal
     if isPlaying == true {
       return
@@ -114,6 +115,7 @@ class ViewController: UIViewController {
   }
   
   @IBAction func myCountdownButton(sender: UIButton) {
+    
     //Check if timer is running or not
     if isPlaying == true {
       return
@@ -128,6 +130,7 @@ class ViewController: UIViewController {
   }
   
   @IBAction func myTimerButton(sender: UIButton) {
+    
     //Check if timer is running or not
     if isPlaying == true {
       return
@@ -168,7 +171,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    // Set up time label
+    // Set up time label when view first loads
     timeDisplay.text = "0.00"
     
     // Set up pickerView
@@ -176,7 +179,7 @@ class ViewController: UIViewController {
     countdownPickerView.dataSource = self
     countdownPickerView.delegate = self
     
-    // Done Indicator
+    // Done Indicator hidden when view loads
     myDoneIndicator.hidden = true
     
   }
